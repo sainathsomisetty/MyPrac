@@ -9,6 +9,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'mvn --version'
+                sh 'echo "this is commited on master branch"'
                 
             }
         }
